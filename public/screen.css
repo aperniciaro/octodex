@@ -19,6 +19,7 @@ ul {
   display: flex;
   justify-content: column;
   justify-content: space-between;
+  align-items: center;
   background-color: gray;
   height: 3rem;
 }
@@ -41,14 +42,42 @@ ul {
 .link-menu {
   display: flex;
   justify-content: column;
-  padding: 0.2rem;
+  padding-right: 1rem;
+}
+
+.menu-item {
+  padding-left: 0.75rem;
 }
 
 .cat-pic {
-  height: 25rem;
-  border: 0.05rem;
+  width: 100%;
+  border: 0.05rem solid gray;
   border-style: solid;
-  border-color: gray;
   padding: 0.75rem;
+}
+
+figure {
   margin: 1rem;
+  width: 25rem;
+  border-bottom: 0.05rem solid gray;
+}
+
+figcaption {
+  display: flex;
+  justify-content: column;
+  justify-content: space-between;
+}
+
+figcaption ul {
+  display: flex;
+  justify-content: column;
+}
+
+figcaption ul li {
+  display: flex;
+  padding-left: 0.5rem;
+}
+
+figcaption ul li img {
+  height: 2rem;
 }
