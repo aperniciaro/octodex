@@ -22,7 +22,6 @@ header {
   align-items: center;
   background-color: #f3f3f3;
   height: 3rem;
-  text-decoration: none;
 }
 
 .home-link {
@@ -35,11 +34,13 @@ header {
   padding: 0.1rem;
   font-weight: bold;
   font-family: helvetica, arial, freesans, clean, sans-serif;
+  text-decoration: none;
 }
 
 .odex {
   padding: 0.1rem;
   font-family: helvetica, arial, freesans, clean, sans-serif;
+  text-decoration: none;
 }
 
 .link-menu {
@@ -56,7 +57,7 @@ header {
   text-decoration: none;
 }
 
-.menu-item:visited {
+a:visited {
   color: black;
 }
 
