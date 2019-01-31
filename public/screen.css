@@ -20,23 +20,25 @@ header {
   justify-content: column;
   justify-content: space-between;
   align-items: center;
-  background-color: gray;
+  background-color: #f3f3f3;
   height: 3rem;
 }
 
 .home-link {
   display: flex;
   justify-content: column;
-  font-size: 1rem;
+  font-size: 1.75rem;
 }
 
 .ghub {
   padding: 0.1rem;
   font-weight: bold;
+  font-family: helvetica, arial, freesans, clean, sans-serif;
 }
 
 .odex {
   padding: 0.1rem;
+  font-family: helvetica, arial, freesans, clean, sans-serif;
 }
 
 .link-menu {
@@ -47,20 +49,26 @@ header {
 
 .menu-item {
   padding-left: 0.75rem;
+  font-size: 0.75rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .cat-pic {
-  width: 100%;
-  border: 0.05rem solid gray;
+  width: 95%;
+  border: 0.05rem solid #cacaca;
   border-style: solid;
   padding: 0.75rem;
 }
 
 figure {
-  margin: 1rem;
   width: 25rem;
-  border-bottom: 0.05rem solid gray;
-  border-right: 1rem solid green;
+  border-bottom: 0.05rem solid #cacaca;
 }
 
 figcaption {
@@ -79,10 +87,15 @@ figcaption ul {
 figcaption ul li {
   display: flex;
   padding-left: 0.5rem;
+  color: gray;
 }
 
 figcaption ul li img {
   height: 2rem;
+}
+
+figcaption p {
+  color: #cacaca;
 }
 
 footer {
@@ -94,9 +107,12 @@ footer {
 
 .foot-menu-item {
   padding: 1rem;
+  font-size: 0.75rem;
 }
 
 .legal {
   display: flex;
   flex-direction: column;
+  font-size: 0.75rem;
+  padding-right: 5rem;
 }
