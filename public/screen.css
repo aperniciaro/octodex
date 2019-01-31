@@ -42,7 +42,7 @@ header {
 .link-menu {
   display: flex;
   justify-content: column;
-  padding-right: 1rem;
+  padding: 1rem;
 }
 
 .menu-item {
@@ -92,7 +92,11 @@ footer {
   align-items: center;
 }
 
+.foot-menu-item {
+  padding: 1rem;
+}
+
 .legal {
   display: flex;
-  align-items: row;
+  flex-direction: column;
 }
